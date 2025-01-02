@@ -1,4 +1,3 @@
-```markdown
 # AI-Assisted Player Creation and Management Tool
 
 ## Description
@@ -94,4 +93,3 @@ This project is a web application that allows users to register, log in, and cre
 
 ## License
 This project is open-source and available under the MIT License.
-```
