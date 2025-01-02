@@ -42,9 +42,9 @@ This project is a web application that allows users to register, log in, and cre
    cd server
    ```
 
-2. Install Python dependencies. If using pip, you might want to use a virtual environment:
+2. Install Python dependencies using pipenv:
    ```bash
-   pip install -r requirements.txt
+   pipenv install
    ```
 
 3. Ensure your database is set up and goes through the initialization logic provided in `database.py`.
@@ -60,9 +60,9 @@ This project is a web application that allows users to register, log in, and cre
 
 1. Open your browser and navigate to `http://localhost:3000` to access the application.
 2. You can register a new account by navigating to `/register` and filling in the required fields.
-3. After registering, log in to your account at the `/login` route.
-4. Once logged in, navigate to `/create-player` to start creating your game character.
-5. The AI will generate rich narratives based on the character descriptions you provide.
+3. After registering, create a player.
+4. The AI will generate rich narratives based on the character descriptions you provide.
+5. Play the game anyway you would like.
 
 ---
 
@@ -78,16 +78,6 @@ This project is a web application that allows users to register, log in, and cre
 - Flask
 - Flask-CORS
 - SQLite (or any chosen database)
-
-## Important Notes
-- Make sure you have an API key for OpenAI and set it in your environmental variables or a configuration file.
-- Ensure that CORS policies are set correctly for development and production.
-
----
-
-## Additional Information
-- Any bugs or issues can be reported in the project’s issue tracker.
-- Contributions and pull requests are welcome! Please follow the standard guidelines for contributions.
 
 ---
 
